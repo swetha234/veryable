@@ -38,15 +38,6 @@ function App() {
             
           
         ) }
-        <div class="toggle"></div>
-        
-
-      
-
-
-     
-
-      
     </div>
   );
 }

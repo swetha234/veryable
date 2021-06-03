@@ -1,3 +1,4 @@
+
 .bodyOfContainer-one{
     margin: 16px 12px 0px 16px;
     height: 80px;
@@ -25,10 +26,12 @@
             color: #4A4A4A;
             font-size: 12px;
             font-weight: 600;
+            margin-top: 1rem
         }
         .role{
             color: #7E7E7E;
             font-size: 12px;
+            line-height: 0;
         }
         .email{
             color:#7E7E7E;
@@ -41,10 +44,10 @@
 .bodyOfContainer-two{
     margin: 0px 12px 0px 16px;
     height: 210px;
-    display: flex;
     background-color: #fff;
     .listOfDetails-two{
         display: grid;
+        margin-left: 3.5rem;
         .address, .phone, .createdAt, .lastLogin{
             span{
                 color: #4A4A4A;
@@ -52,8 +55,8 @@
                 font-size: 12px;
             }
             
-            color: #4A4A4A;
-            font-size: 12px;
+            color: #7E7E7E;
+            font-size: 10px;
             
         }
     }
