@@ -1,7 +1,6 @@
 import {useState} from 'react';
 import './Accordian.scss';
 
-
 const Accordian = (props) => {
     const [isTrue,setIsTrue] = useState(false);
     const ShowHide = () =>{
@@ -31,8 +30,6 @@ const Accordian = (props) => {
                         <p class="phone"><span>Phone</span>{props.phone}</p>
                         <p class="createdAt"><span>Created At</span>{props.createdat}</p>
                         <p class="lastLogin"><span>Last Logged In</span>{props.lastlogin}</p>
-
-
                     </div>
                 </div>
                 }      

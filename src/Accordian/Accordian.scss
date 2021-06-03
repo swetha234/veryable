@@ -1,26 +1,26 @@
 @import '../App.scss';
 
-.bodyOfContainer-one{
+.bodyOfContainer{
+    -webkit-box-shadow: 0 0 5px 0px grey;
+    -moz-box-shadow: 0 0 3px 2px grey;
+    box-shadow: 0 0 5px 0px grey;
     margin: 16px 12px 0px 12px;
+}
+.bodyOfContainer-one{
+    
     display: flex;
     align-content: center;
     align-items: center;
     padding:1rem;
     background-color: $whiteColor; 
-   
-    cursor: pointer;
     
     .up-down{
         display: flex;
         justify-content: center;
         align-items: center;
         right: 1rem;
-        overflow: hidden;
-       
         position: absolute;
         cursor: pointer;
-       
-        
         svg{
             height: 2rem;
             fill: $charcoalBrown;
@@ -63,10 +63,8 @@
     }
 }
 .bodyOfContainer-two{
-    margin: 0px 12px 0px 12px;
     padding-bottom: 2rem;
     background-color: #fff;
-    transition: .2s;
 
     .listOfDetails-two{
         display: grid;
@@ -83,7 +81,5 @@
             font-size: 12px;
         }
     }
-
-
 }
 
