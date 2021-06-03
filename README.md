@@ -6,13 +6,17 @@ It is a simple User web application using REACT that displays information of the
 
 To run this project on you local machine:
 
+```sh
 git clone 
 npm install
 npm start
+```
 
 ## Open your browser and run:
 
+```sh
 http://localhost:3000/
+```
 
 
 
