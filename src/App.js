@@ -1,7 +1,7 @@
 import './App.scss';
 import Accordian from './Accordian/Accordian';
 import './Accordian/Accordian.scss';
-import UserLogo from './group.svg';
+import UserLogo from './images/group.svg';
 import Users from './users.json';
 
 
