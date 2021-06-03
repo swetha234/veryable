@@ -1,63 +1,86 @@
+@import '../App.scss';
 
 .bodyOfContainer-one{
-    margin: 16px 12px 0px 16px;
-    height: 80px;
+    margin: 16px 12px 0px 12px;
     display: flex;
-    background-color: #fff;
+    align-content: center;
+    align-items: center;
+    padding:1rem;
+    background-color: $whiteColor; 
+   
+    cursor: pointer;
+    
     .up-down{
-        height: 1rem;
         display: flex;
-        justify-content: flex-end;
-        color: #7E7E7E;
+        justify-content: center;
+        align-items: center;
         right: 1rem;
+        overflow: hidden;
+       
         position: absolute;
         cursor: pointer;
+       
+        
+        svg{
+            height: 2rem;
+            fill: $charcoalBrown;
+        }
     }
     svg{
         height: 5rem;
         width: 3.5rem;
+
+        &.Administrator{
+            fill:$blueColor;
+        }
+        &.User{
+            fill:$torquiseColor;
+        }
+        &.Viewer{
+            fill:$charcoalBrown;
+        }
     }
             
     
     .listOfDetails-one{
-        // display: grid;
-       
+        margin-left:1rem;
+        text-decoration: none;
         .name{
             color: #4A4A4A;
-            font-size: 12px;
+            font-size: 15px;
             font-weight: 600;
-            margin-top: 1rem
         }
         .role{
             color: #7E7E7E;
-            font-size: 12px;
+            font-size: 13px;
             line-height: 0;
+
         }
         .email{
             color:#7E7E7E;
-            font-size:  10px;
+            font-size:  12px;
         }
     }
-
-
 }
 .bodyOfContainer-two{
-    margin: 0px 12px 0px 16px;
-    height: 210px;
+    margin: 0px 12px 0px 12px;
+    padding-bottom: 2rem;
     background-color: #fff;
+    transition: .2s;
+
     .listOfDetails-two{
         display: grid;
-        margin-left: 3.5rem;
+        margin-left: 5.5rem;
         .address, .phone, .createdAt, .lastLogin{
+            display: grid;
             span{
                 color: #4A4A4A;
                 font-weight: 600;
-                font-size: 12px;
+                font-size: 13px;
+                margin-bottom: 3px;
             }
-            
             color: #7E7E7E;
-            font-size: 10px;
-            
+            font-size: 12px;
         }
     }
 
