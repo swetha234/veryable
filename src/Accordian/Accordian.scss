@@ -1,0 +1,66 @@
+
+.bodyOfContainer-one{
+    margin: 16px 12px 0px 16px;
+    height: 80px;
+    display: flex;
+    background-color: #fff;
+    .up-down{
+        height: 1rem;
+        display: flex;
+        justify-content: flex-end;
+        color: #7E7E7E;
+        right: 1rem;
+        position: absolute;
+        cursor: pointer;
+    }
+    svg{
+        height: 5rem;
+        width: 3.5rem;
+    }
+            
+    
+    .listOfDetails-one{
+        // display: grid;
+       
+        .name{
+            color: #4A4A4A;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 1rem
+        }
+        .role{
+            color: #7E7E7E;
+            font-size: 12px;
+            line-height: 0;
+        }
+        .email{
+            color:#7E7E7E;
+            font-size:  10px;
+        }
+    }
+
+
+}
+.bodyOfContainer-two{
+    margin: 0px 12px 0px 16px;
+    height: 210px;
+    background-color: #fff;
+    .listOfDetails-two{
+        display: grid;
+        margin-left: 3.5rem;
+        .address, .phone, .createdAt, .lastLogin{
+            span{
+                color: #4A4A4A;
+                font-weight: 600;
+                font-size: 12px;
+            }
+            
+            color: #7E7E7E;
+            font-size: 10px;
+            
+        }
+    }
+
+
+}
+
