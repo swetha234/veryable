@@ -11,7 +11,7 @@ const App = () => (
     <div className="nav-bar">
       <div className="user-logo">
           <img src={UserLogo} alt="User Logo"></img>
-          <h1 className="h4">Users</h1>
+          <h1 className="h4">Users are here</h1>
       </div>
     </div>
 
